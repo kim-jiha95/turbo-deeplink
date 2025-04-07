@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { View, Text, StyleSheet, Linking } from 'react-native';
-import TurboDeeplink from 'turbo-deeplink';
+import TurboDeeplink from 'turbo-deeplink-dubu';
 
 const App = () => {
   useEffect(() => {
