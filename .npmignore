@@ -1,0 +1,23 @@
+# Build artifacts
+android/build/
+ios/build/
+.gradle/
+*.tgz
+
+# Development
+node_modules/
+.idea/
+.vscode/
+*.log
+
+# Testing
+__tests__/
+*.test.js
+*.test.ts
+
+# TypeScript source (as we publish compiled JS)
+*.tsbuildinfo
+
+# Examples/docs that aren't needed in the package
+example/
+docs/

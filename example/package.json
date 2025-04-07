@@ -1,0 +1,24 @@
+{
+  "name": "turbo-deeplink-example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "pods": "pod-install --quiet"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.78.2",
+    "turbo-deeplink": "file:../"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/preset-env": "^7.20.0",
+    "@babel/runtime": "^7.20.0",
+    "@react-native/metro-config": "^0.73.5",
+    "@types/react": "^18.2.6",
+    "typescript": "5.0.4"
+  }
+}
